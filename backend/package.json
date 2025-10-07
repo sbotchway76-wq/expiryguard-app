@@ -4,8 +4,6 @@
   "description": "Backend for ExpiryGuard - Expiry Date Tracking Application",
   "main": "server.js",
   "scripts": {
-    "start": "react-scripts start"
-    "build": "react-scripts build"
     "start": "node server.js",
     "dev": "nodemon server.js"
   },
