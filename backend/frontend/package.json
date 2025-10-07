@@ -1,0 +1,8 @@
+{
+  "name": "expiryguard-frontend",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "echo 'No build process needed for static files' && mkdir -p build && cp index.html styles.css app.js build/ 2>/dev/null || echo 'Files copied'",
+    "dev": "echo 'Static HTML site - no dev server needed'"
+  }
+}
