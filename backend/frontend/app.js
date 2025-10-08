@@ -1,5 +1,5 @@
 // API Configuration
-const API_BASE_URL = `http://expiryguard-backend.onrender.com/api`;
+const API_BASE_URL = `https://expiryguard-backend.onrender.com`;
 
 // Utility Functions
 function showNotification(message, type = 'info') {
