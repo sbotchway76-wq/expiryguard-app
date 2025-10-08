@@ -1,6 +1,5 @@
 // API Configuration
-const API_BASE_URL = https://expiryguard-backend-eosz.onrender.com;
-
+const API_BASE_URL = "https://expiryguard-backend-eosz.onrender.com/api";
 // Utility Functions
 function showNotification(message, type = 'info') {
     const banner = document.getElementById('notification-banner');
