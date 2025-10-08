@@ -1,0 +1,18 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Samuel Botchway",
+      "email": "sbotchway76@gmail.com",
+      "password": "Samuel0208325598"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Milk",
+      "expiryDate": "2024-10-30",
+      "userId": 1
+    }
+  ]
+}
