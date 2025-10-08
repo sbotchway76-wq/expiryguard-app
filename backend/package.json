@@ -4,11 +4,10 @@
   "description": "Backend for ExpiryGuard - Expiry Date Tracking Application",
   "main": "server.js",
   "scripts": {
-    "start": "json-server --watch db.json --host 0.0.0.0 --port 10000",
-    "dev": "json-server --watch db.json --host 0.0.0.0 --port 10000"
+    "start": "json-server --watch db.json --host 0.0.0.0 --port 10000 --cors",
+    "dev": "json-server --watch db.json --host 0.0.0.0 --port 10000 --cors"
   },
   "dependencies": {
-    "json-server": "^0.17.4",
-    "cors": "^2.8.5"
+    "json-server": "^0.17.4"
   }
 }
